@@ -1,10 +1,16 @@
 import "./cssConfg/App.css";
 import styled from "styled-components";
+import Clock from "./Clock/Clock";
+import StopWatch from "./Clock/Stopwatch/StopWatch";
 
 function App() {
-  return <Container>Boiler palte</Container>;
+  return (
+    <Container>
+      <Clock />
+      <StopWatch />
+    </Container>
+  );
 }
 
 const Container = styled.div``;
-const Box = styled.div``;
 export default App;
